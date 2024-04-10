@@ -1,1 +1,1 @@
-export default(x,c=5*x%1)=>x+(1-c-(1-c*c)**.5)/5
+export default(x,t=5*x%1)=>x+(1-t-(1-t*t)**.5)/5
