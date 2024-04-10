@@ -1,1 +1,1 @@
-export default (x,r=.2,c=~~(x/r)*r)=>c+r-Math.sqrt(r*r-(x-c)**2)
+export default (x,c=~~(5*x)/5)=>c+.2-Math.sqrt(.04-(x-c)**2)
